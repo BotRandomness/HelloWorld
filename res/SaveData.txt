@@ -1,0 +1,14 @@
+//0 Path Before Install
+1****
+//2 Path After Install
+3****
+//4 Data
+5****
+//6 Other Data #1
+7****
+//8 Other Data #2
+9****
+//10 Other Data #3
+11****
+//12 Don't Mess with this file unless if you move executable, delete both the path info and replace them with: 1**** for before install and for after install: 3****
+13****
