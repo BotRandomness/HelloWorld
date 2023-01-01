@@ -29,6 +29,8 @@ Is this too over the top for just a "Hello World" project? Yes, for sure. Is it 
 
 Want to help the development of this project? Of course you want to! This project is purely writen in C#, so you would be needed .NET (dotnet). .NET is a framework made by Mircosoft, it's cross-platform, and open-source. .NET here is what we use to compile our C# code! .NET 7 or .NET 6 both should work with this. You can download it here: https://dotnet.microsoft.com/en-us/download </br>
 
+I used Visual Studio Code, a text editor, you can also VS Code or any other text editor, or you can use an IDE like Visual Studio. </br>
+
 Do note that I try making this cross-platform as possible, however, I was only able to test on Windows. I will try to test on MacOS and Linux based systems, later on, maybe someone could also test it and let me know :)
 
 ### Compiling
