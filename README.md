@@ -14,7 +14,7 @@
 ## About The Project
 
 <a href="https://github.com/BotRandomness/HelloWorld">
-    <img src="git-res/TerminalImage.png" alt="ProjectImage" width="1070" height="509">
+    <img src="git-res/TerminalImage.png" alt="ProjectImage" width="1070%" height="509%">
 </a>
 
 (Image showing 1.0V build, first commit) </br>
