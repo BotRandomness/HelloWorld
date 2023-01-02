@@ -71,7 +71,7 @@ Quickly going to talk about how the `SaveData.txt` works. The layout of that fil
 [Odd Number]****
 ```
 
-The numbers here represent a index number, since in C#, when you load in a file, each line is index into a array starting from 0. I refer to a pair of even and odd number as a `slot`. A `slot` contains a even number which is just a header saying what the data is for, while the odd number is where the data written to. These numbers are helpful when trying to know what array index a `slot` is at. The first 2 save slot is used to save the old `PATH` variable and the new `PATH` variable, which is to called the HelloWorld CLI from the terminal in any directory.
+The numbers here represent a index number, since in C#, when you load in a file, each line is index into a array starting from 0. I refer to a pair of even and odd number as a `slot`. A `slot` contains a even number which is just a header saying what the data is for, while the odd number is where the data written to. These numbers are helpful when trying to know what array index a `slot` is at. The first 2 save `slot` is used to save the old `PATH` variable and the new `PATH` variable, which is to called the HelloWorld CLI from the terminal in any directory.
 
 <!-- USAGE EXAMPLES -->
 
