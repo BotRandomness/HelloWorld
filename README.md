@@ -114,8 +114,8 @@ Language List (So far):
 - `Haxe`
 - `CS` (C#)
 - `CPP` (C++)
-- C
-- JavaScript
+- `C`
+- `JavaScript`
 
 Few Example Commands: </br>
 `HelloWorld -c -l haxe` </br>
