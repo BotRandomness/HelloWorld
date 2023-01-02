@@ -6,7 +6,7 @@ bin/
 build/
 publish/
 
-#If you use Visual Studios, just tooken from the visual studio .gitignore template
+#If you use Visual Studios, just taken from the Visual Studio .gitignore template
 
 # User-specific files
 *.rsuser
