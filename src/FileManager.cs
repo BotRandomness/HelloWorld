@@ -88,7 +88,7 @@ namespace FileManager
 
         public static string LangList() 
         {
-            string Names = "Python\nJava\nHaxe\nC#";
+            string Names = "Python\nJava\nHaxe\nC# (CS)\nC++ (cpp)\nC\nJavaScript";
             Console.WriteLine(Names);
             return Names;
         }
@@ -174,6 +174,39 @@ namespace FileManager
                     FileCopier.DirectoryCopier(Path.Combine(projectCSFile, "res"), Path.Combine(directoryPlace, "res"));
                     File.Move(Path.Combine(directoryPlace, "HelloWorldCS.txt"), Path.Combine(directoryPlace, "HelloWorldCS.csproj"));
                     Console.WriteLine("Hello World Project - C# Generated!");
+                    break;
+                case "cpp":
+                    if (!File.Exists(Path.Combine(directoryPlace, "main.cpp")))
+                    {
+                        File.Copy(Path.Combine(appLocation, "CodeBank", "main.cpp"), Path.Combine(directoryPlace, "main.cpp"));
+                        Console.WriteLine("Hello World - C++ Generated!");
+                    }
+                    else 
+                    {
+                        Console.WriteLine("That File Already Exist!");
+                    }
+                    break;
+                case "c":
+                    if (!File.Exists(Path.Combine(directoryPlace, "main.c")))
+                    {
+                        File.Copy(Path.Combine(appLocation, "CodeBank", "main.c"), Path.Combine(directoryPlace, "main.c"));
+                        Console.WriteLine("Hello World - C Generated!");
+                    }
+                    else 
+                    {
+                        Console.WriteLine("That File Already Exist!");
+                    }
+                    break;
+                case "javascript":
+                    if (!File.Exists(Path.Combine(directoryPlace, "hello-world.js")))
+                    {
+                        File.Copy(Path.Combine(appLocation, "CodeBank", "hello-world.js"), Path.Combine(directoryPlace, "hello-world.js"));
+                        Console.WriteLine("Hello World - JavaScript Generated!");
+                    }
+                    else 
+                    {
+                        Console.WriteLine("That File Already Exist!");
+                    }
                     break;
                 default:
                     Console.WriteLine("Sorry but that does not seem to exist in my database :(");
