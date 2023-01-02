@@ -113,6 +113,9 @@ Language List (So far):
 - `Java`
 - `Haxe`
 - `CS` (C#)
+- `CPP` (C++)
+- C
+- JavaScript
 
 Few Example Commands: </br>
 `HelloWorld -c -l haxe` </br>
@@ -131,7 +134,7 @@ Few Example Commands: </br>
 ### Upcoming Features
 
 - [ ] ADD MORE LANGUAGES!!! :)
-  - C, C++, Lua, JavaScript, Ruby, Rust, Go, etc
+  - Lua, Ruby, Rust, Go, etc
 - [ ] Add more "Hello World" projects for framworks and engines
   - Godot, Unity, other game engines :), NodeJs Projects
 - [ ] User customizability support, as in they can genarate their own files
