@@ -1,0 +1,14 @@
+//0 Path Before Install
+C:\Users\shrey\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\shrey\AppData\Local\Programs\Python\Python37\;C:\Users\shrey\AppData\Local\Microsoft\WindowsApps;C:\Users\shrey\AppData\Local\Programs\Git LFS;C:\Users\shrey\Documents\Git LFS;C:\Users\shrey\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\shrey\AppData\Local\Programs\Git\cmd;C:\Users\shrey\.dotnet\tools;C:\Users\shrey\Documents\VS Code Projects\HelloWorld\bin\MCD\Debug\net6.0\;C:\Users\shrey\Documents\VS Code Projects\HelloWorld\build\;
+//2 Path After Install
+C:\Users\shrey\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\shrey\AppData\Local\Programs\Python\Python37\;C:\Users\shrey\AppData\Local\Microsoft\WindowsApps;C:\Users\shrey\AppData\Local\Programs\Git LFS;C:\Users\shrey\Documents\Git LFS;C:\Users\shrey\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\shrey\AppData\Local\Programs\Git\cmd;C:\Users\shrey\.dotnet\tools;C:\Users\shrey\Documents\VS Code Projects\HelloWorld\bin\MCD\Debug\net6.0\;C:\Users\shrey\Documents\VS Code Projects\HelloWorld\build\;C:\Users\shrey\Documents\VS Code Projects\HelloWorld\build\;
+//4 Data
+5****
+//6 Other Data #1
+7****
+//8 Other Data #2
+9****
+//10 Other Data #3
+11****
+//12 Don't Mess with this file unless if you move executable, delete both the path info and replace them with: 1**** for before install and for after install: 3****
+13****
