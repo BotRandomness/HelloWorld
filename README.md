@@ -18,9 +18,9 @@
     <img src="git-res/TerminalImage.png" alt="ProjectImage" width="1070%" height="509%">
 </a>
 
-(Image showing 1.0V build, first commit) </br>
+(Image showing 1.0V build, First Commit) </br>
 </br>
-As my first Github respository, what naturally comes to mind is to make a "Hello World" repo with a readme. I decided that if I was going to upload a "HelloWorld" respository, I might as well make it over the top. I present to you... a HELLO WORLD CLI! Yes, a CLI tool to help you generate Hello World projects for different languages and project frameworks! The best part is that this is completely open source under the MIT license. ANYONE is free to CONTRIBUTE. I plan on to add extra features and content, look at features for more detail.
+As my first Github respository, what naturally comes to mind is to make a "Hello World" repo with a readme. I decided that if I was going to upload a "HelloWorld" respository, I might as well make it over the top. I present to you... a **HELLO WORLD CLI**! Yes, a CLI tool to help you generate Hello World projects for different languages and project frameworks, such as for **Python, C#, Haxe, C++, Rust, and MORE** (Look at language list in the Usage section)! The best part is that this is completely **open source** under the MIT license. ANYONE is free to **CONTRIBUTE**. I plan on to add extra features and content, look at features section for more detail.
 </br></br>
 Is this too over the top for just a "Hello World" project? Yes, for sure. Is it worth it? Definitely! :)
 
@@ -42,17 +42,25 @@ Now that you have .NET, it's compiling time! .NET makes it super easy to compile
   ```sh
   cd [PROJECT PATH]
   ```
-  - To test the code/debug build, enter this command.
+  - To run and test the code with debug build, enter this command.
   ```sh
   dotnet run
   ```
-  - If you now want to make a proper build, this is the command we use.
+  - If you now want to make a build, this is the command we use.
   ```sh
   dotnet build -o build
   ```
-  The "-o" here is what we call a flag, this is essentially saying output the build to the "build" folder, which would be made automatically. This is what we can disubrute to other people.
+  The "-o" here is what we call a flag, this is essentially saying output the build to the "build" folder, which would be made automatically. We can distribute this to others, but it's more for yourself, so there is another command very similar to dotnet build called dotnet publish
   </br>
-  Do note if you make a build like this, .NET will compile the project assuming that your building the program for whatever your OS and CPU architechture, and the program will also be .NET framework dependent. You can add more flags to build for other OSs and CPU architechture and also make it not .NET framework dependent. Heres a link to Mircosoft .NET docs, outlining these different flags: https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-build
+  - dotnet publish is very similar to dotnet build, except dotnet publish has bit more flags dedicated for distribution.
+  ```sh
+  dotnet publish -o publish
+  ```
+  The build and publish are very similar, and most the flags are the same with a few addition you may or may not use, so you could technically use either for final distribution, the choice is yours.
+  
+  Do note if you make a build/publish like this, .NET will compile the project assuming that your building the program for whatever your OS and CPU architechture, and the program will also be .NET framework dependent. You can add more flags to build for other OSs and CPU architechture and also make it not .NET framework dependent. Heres a link to Mircosoft .NET docs, outlining these different flags: </br>
+  dotnet build: https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-build </br>
+  dotnet publish: https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-publish </br>
 
 ### Program Architechture
 
@@ -85,12 +93,12 @@ After downloading the zip file, or once you compiled it yourself, make sure you 
 
 ### Uninstall
 
-If you want to uninstall, it's also simple. Just delete the application folder. That's pretty much it. Further more, I reconmend is to go into your `local PATH` varible, and remove the applications location from there as well.
+If you want to uninstall, it's also simple. Just delete the application folder. That's pretty much it. Further more, I reconmend is to go into your `local PATH` variable, and remove the applications location from there as well.
 
 ### Syntax
 
 To launch, in your terminal (which could be pointed to any directory), simply write `HelloWorld`. </br>
-This will launch the CLI, and you can answer the prompted. However, if you want bypass the questions, and the information enter before hand for faster use, we can use `command flags` </br>
+This will launch the CLI, and you can answer the prompted step by step questions for the desire output. However, if you want bypass the questions, and have the information enter before hand for faster use, we can use `command flags` </br>
 
 The genaral syntax: </br>
 `--flag [INPUT]` </br>
@@ -105,7 +113,7 @@ The Flags:
 
 These flags are flexible, as in you can use one or two of these flags, and the rest unused flags, question will be prompted instead. </br>
 
-Here are some of the support languages that can be genarated (So far, more a definitely): </br>
+Here are some of the supported languages that can be genarated (So far): </br>
 
 Language List (So far):
 
@@ -116,6 +124,11 @@ Language List (So far):
 - `CPP` (C++)
 - `C`
 - `JavaScript`
+- `Go`
+- `Rust`
+- `Lua`
+- `Ruby`
+- `Swift`
 
 Few Example Commands: </br>
 `HelloWorld -c -l haxe` </br>
@@ -129,16 +142,18 @@ Few Example Commands: </br>
 
 - Easily call the `HelloWorld` from the terminal anywhere
 - Flags for faster use
-- A `CodeBank` making very easy to genarate Hello World files/Projects
+- A `CodeBank` making very easy to genarate Hello World files/Projects supporting many languages currently
 
 ### Upcoming Features
 
 - [ ] ADD MORE LANGUAGES!!! :)
-  - Lua, Ruby, Rust, Go, etc
-- [ ] Add more "Hello World" projects for framworks and engines
+  - Dart, Objective-C, Assembly languages, Legacy languages, esoteric languages, etc
+- [ ] Add more "Hello World" projects for other framworks and engines
   - Godot, Unity, other game engines :), NodeJs Projects
 - [ ] User customizability support, as in they can genarate their own files
   - Very useful if the user uses a certain format a lot of times, it doesn't neeed to be "Hello World" realted
+- [ ] Have a option to automatically to exacute the code for the user after being genarated
+  - User would have to do a One Time Set-Up of the compiller path/command for a language 
 - [ ] Make a help flag to easily see syntax
 - Post any feature request in the Issues tab!
 
