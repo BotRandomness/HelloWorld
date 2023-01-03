@@ -88,7 +88,7 @@ namespace FileManager
 
         public static string LangList() 
         {
-            string Names = "Python\nJava\nHaxe\nC# (CS)\nC++ (cpp)\nC\nJavaScript";
+            string Names = "Python\nJava\nHaxe\nC# (CS)\nC++ (cpp)\nC\nJavaScript\nGo\nRust\nLua\nRuby\nSwift";
             Console.WriteLine(Names);
             return Names;
         }
@@ -202,6 +202,61 @@ namespace FileManager
                     {
                         File.Copy(Path.Combine(appLocation, "CodeBank", "hello-world.js"), Path.Combine(directoryPlace, "hello-world.js"));
                         Console.WriteLine("Hello World - JavaScript Generated!");
+                    }
+                    else 
+                    {
+                        Console.WriteLine("That File Already Exist!");
+                    }
+                    break;
+                case "go":
+                    if (!File.Exists(Path.Combine(directoryPlace, "hello_world.go")))
+                    {
+                        File.Copy(Path.Combine(appLocation, "CodeBank", "hello_world.go"), Path.Combine(directoryPlace, "hello_world.go"));
+                        Console.WriteLine("Hello World - Go Generated!");
+                    }
+                    else 
+                    {
+                        Console.WriteLine("That File Already Exist!");
+                    }
+                    break;
+                case "rust":
+                    if (!File.Exists(Path.Combine(directoryPlace, "hello.rs")))
+                    {
+                        File.Copy(Path.Combine(appLocation, "CodeBank", "hello.rs"), Path.Combine(directoryPlace, "hello.rs"));
+                        Console.WriteLine("Hello World - Rust Generated!");
+                    }
+                    else 
+                    {
+                        Console.WriteLine("That File Already Exist!");
+                    }
+                    break;
+                case "lua":
+                    if (!File.Exists(Path.Combine(directoryPlace, "hello.lua")))
+                    {
+                        File.Copy(Path.Combine(appLocation, "CodeBank", "hello.lua"), Path.Combine(directoryPlace, "hello.lua"));
+                        Console.WriteLine("Hello World - Lua Generated!");
+                    }
+                    else 
+                    {
+                        Console.WriteLine("That File Already Exist!");
+                    }
+                    break;
+                case "ruby":
+                    if (!File.Exists(Path.Combine(directoryPlace, "Hello.rb")))
+                    {
+                        File.Copy(Path.Combine(appLocation, "CodeBank", "Hello.rb"), Path.Combine(directoryPlace, "Hello.rb"));
+                        Console.WriteLine("Hello World - Ruby Generated!");
+                    }
+                    else 
+                    {
+                        Console.WriteLine("That File Already Exist!");
+                    }
+                    break;
+                case "swift":
+                    if (!File.Exists(Path.Combine(directoryPlace, "main.swift")))
+                    {
+                        File.Copy(Path.Combine(appLocation, "CodeBank", "main.swift"), Path.Combine(directoryPlace, "main.swift"));
+                        Console.WriteLine("Hello World - Swift Generated!");
                     }
                     else 
                     {
