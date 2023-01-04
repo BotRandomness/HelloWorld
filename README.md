@@ -147,7 +147,7 @@ Few Example Commands: </br>
 ### Upcoming Features
 
 - [ ] ADD MORE LANGUAGES!!! :)
-  - Dart, Objective-C, Assembly languages, Legacy languages, esoteric languages, etc
+  - Dart, Kotlin, Objective-C, Assembly languages, Legacy languages, esoteric languages, etc
 - [ ] Add more "Hello World" projects for other framworks and engines
   - Godot, Unity, other game engines :), NodeJs Projects
 - [ ] User customizability support, as in they can genarate their own files
