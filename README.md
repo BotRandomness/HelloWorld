@@ -89,7 +89,12 @@ Want to know how to use it? It's very simple! :)
 
 ### Setup
 
-After downloading the zip file, or once you compiled it yourself, make sure you move the folder containing the exacutable and all of it's necessary files your desired location. I reconmend you put it in a place where it will stay in one place. To setup, just launch the application, and the setup will activate itself, and the application location will add itself to your `local PATH` variable, which will allow you to call it from the terminal for faster and for a more pratical use (this why I reconmend keeping it on a place where it will stay).
+After downloading the zip file, or once you compiled it yourself, make sure you move the folder containing the exacutable and all of it's necessary files your desired location. I reconmend you put it in a place where it will stay in one place. To setup, just launch the application: </br>
+
+Windows: Click on the `HelloWorld.exe` </br>
+Linux (and maybe MacOS): From the terminal, point the terminal to the HelloWorld application folder (`cd [Path Helloworld CLI Application Folder]`), with the HelloWorld file in the folder, execute it by `./HelloWorld`, you may need to give the file execute permission on Linux (and maybe MacOS) </br>
+
+and the setup will activate itself, and the application location will add itself to your `local PATH` variable, which will allow you to call it from the terminal for faster and for a more pratical use (this why I reconmend keeping it on a place where it will stay). However, during set-up, you will get a option not to add the application to your `local PATH` variable. This option is only best if you know you will be moving around the application location, or if you will only use it in your directory where all your projects are.
 
 ### Uninstall
 
