@@ -50,7 +50,7 @@ namespace SaveDataController
                         FunText.BotImageHead();
 
                         Console.WriteLine("Did not add app to local PATH variable");
-                        Console.WriteLine("Only for current directory use");
+                        Console.WriteLine("Only for current project directory use, for global use, you can add to PATH variable manually");
                         Console.WriteLine("SET-UP COMPLETED! :)");
                         Console.WriteLine("PRESS ANY KEY TO CONTINUE\n");
 
