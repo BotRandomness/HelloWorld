@@ -77,7 +77,7 @@ namespace FileManager
                 {
                     Console.WriteLine("Name the Project Folder: ");
                     folderName = Console.ReadLine();
-                    directoryPath = directoryPath + Path.Combine(directoryPath, folderName);
+                    directoryPath = Path.Combine(directoryPath, folderName);
                     Directory.CreateDirectory(directoryPath); 
                 }
             }
