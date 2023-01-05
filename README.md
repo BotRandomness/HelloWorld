@@ -170,7 +170,7 @@ Few Example Commands: </br>
 - Using the both `-o` and `-c` flag together at once can confuse the program
   - The program will not crash, but use what flag came first
 - For Linux (maybe also MacOS), the program does not save to local PATH variable at all
-  - Need make the program dectect first on what platform it's running on, and then do the correct actions to add itself to the Linux PATH (maybe MacOS)
+  - Need make the program dectect first on what platform it's running on, and then do the correct actions to add itself to the Linux PATH (maybe MacOS), the base program still work by just executing the application manually
 - If you find any other issues/bugs, post about it on the issues tab
   - Also provide what version your using (as well OS, CPU), and how to reproduce it
 
